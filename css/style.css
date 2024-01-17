@@ -1,0 +1,14 @@
+body{
+    background-color: #DFC87C;
+}
+
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:larger;
+
+}
+
+[class*="logo"]{
+    height: 20% ;
+}
