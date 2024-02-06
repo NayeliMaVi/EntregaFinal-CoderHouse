@@ -1,19 +1,78 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=Q, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>PreEntrega1</title>
 </head>
 <body>
-    <div class="titulo">
-        <h1>Chilly Willy Codes 🐈</h1>
-    </div>
-    
-    <img src="css/img/PS logo.png" alt="ps-logo" class="logo-ps4">
-    <img src="css/img/XBOX logo.png" alt="xbox-logo" class="logo-xbox">
-    <script src= "js/script1.js" ></script>
-   
+    <header>
+        <nav id="header-nav" class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    
+                    <img class= "logo-pag"src="./css/img/gato.png" alt="logo">
+                    <span class="text-uppercase">Chilly Willy Codes</span>
+                </a>
+                <form class="container-fluid">
+                    <div class="input-group">
+                      <span class="input-group-text" id="basic-addon1"><img 
+                        class= "img-btn" src="./css/img/search.png" alt="buscar"></span>
+                      <input type="text" class="form-control" placeholder="Buscar codigos para..." aria-label="Buscar codigos para..." aria-describedby="basic-addon1">
+                    </div>
+                  </form>
 
+                  <div class="">
+                    <button type="button" class="btn">
+                        <img class="img-btn"src="./css/img/shop.png" alt="carshop">
+                    </button>
+
+                    
+                        <a class="navbar-brand" href="">
+                            <img class="img-btn" src="./css/img/profile.png" alt="imgprofile">
+                            <span class="inicio">iniciar sesion</span>
+                        </a>
+
+                   
+                  </div>
+
+            </div>
+            
+        </nav>
+        
+
+    </header>
+
+
+    <div class="opciones">
+        <nav id="nav-opc" class="navbar navbar-expand-lg" >
+        <div class="container">
+            <a class= "navbar-brand" href=""> 
+                
+                <span class="letter">
+                        XBOX
+                </span> <img  class= "img-btn" src="./css/img/flecha.png" alt="flecha"></a>
+            <a class= "navbar-brand" href="">
+                <span class="letter">
+                        Playstation
+                </span> <img  class= "img-btn" src="./css/img/flecha.png" alt="flecha"></a>
+        </div>
+        </nav>
+    </div>
+
+    <section class="Productos disponibles">
+        <!-- Ingresar el diseño para cada producto -->
+    </section>
+    
+   <footer> <div class="footer-container">
+
+   </div> </footer>
+   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+   <script src= "js/main.js" ></script>
 </body>
 </html>

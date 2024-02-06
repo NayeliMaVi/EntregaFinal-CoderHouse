@@ -1,14 +1,49 @@
-body{
-    background-color: #DFC87C;
-}
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oleo+Script:wght@400;700&display=swap');
 
-.titulo{
+body{
+    background-color: #F5EEC7;
+}
+#header-nav{
+    background-color: #D9A032;
+}
+#nav-opc{
+    background-color: #8C5305;
+}
+/* .titulo{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size:larger;
 
+} */
+
+.logo-pag{
+    height: 80px;
 }
 
-[class*="logo"]{
-    height: 20% ;
+.text-uppercase{
+    font-family: "Oleo Script", system-ui;
+    font-weight: 32 px;
+    color:white;
+}
+
+.img-btn{
+    height: 50px;
+}
+
+.inicio{
+    font-size: "McLaren", sans-serif;
+    color: white;
+    height: 30 px;
+}
+
+.letter{
+ color: white;
+}
+
+/* [class*="logo"]{
+    height: 200px ;
+} */
+
+.footer-container{
+    background-color: #8C5305;
 }
