@@ -3,9 +3,26 @@
 body{
     background-color: #F5EEC7;
 }
-#header-nav{
-    background-color: #D9A032;
+a{
+    text-decoration: none;
+    
 }
+
+.header-main {
+    position: relative;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #D9A032
+}
+.logo {
+    font-weight: 600;
+    height: 80px;
+    font-family: "Oleo Script", system-ui;
+    color:white;
+    font-size:250%;
+   
+}
+
 #nav-opc{
     background-color: #8C5305;
 }
@@ -15,9 +32,12 @@ body{
     font-size:larger;
 
 } */
+#cart-bottom{display: inline-block;}
 
-.logo-pag{
-    height: 80px;
+
+#fotos-productos {
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Mantiene la relación de aspecto y cubre completamente el contenedor */
 }
 
 .text-uppercase{
