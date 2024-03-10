@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Q, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>PreEntrega3</title>
+</head>
+<body>
+    <header>
+        <section class="header-main ">
+            <div class="container-fluid ">
+                <div class="row d-flex align-items-center text-center">
+                    <div class="col"> <a href="index.html">
+                            <img class="logo" src="./css/img/gato.png"><span class="logo">Chilly Willy Codes</span> </a> 
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+
+    </header>
+   
+   
+
+   
+    <div class="row form-pago-container">
+        <div class="col-lg-6 offset-lg-3" id="contenedor-pago">
+            <h5 class="titulo"> Información de Pago </h5>
+            <form class="row g-3 needs-validation form-pago" id="form-pag" novalidate>
+                <div class="col-md-6">
+                    <label for="titular" class="form-label">Nombre del Titular de la tarjeta</label>
+                    <input type="text" class="form-control" id="titular" pattern="[A-Za-z ]+" placeholder="Ej. Santiago Mendoza" required>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback"> Ingrese el nombre del titular de la tarjeta</div>                    
+
+                </div>
+
+                <div class="col-md-6">
+                    <label for="numeroTarjeta" class="form-label">Numero de la tarjeta</label>
+                    <input type="text" class="form-control" id="numeroTarjeta" 
+                    pattern="[0-9]{16}" placeholder="XXXXXXXXXXXXXXXX"  required>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback">  <span id="mensajeError"> Ingrese el numero correctamente</span></div>                    
+
+                </div>
+
+                <div class="col-md-6">
+                    <label for="caducidad" class="form-label">Fecha de caducidad</label>
+                    <input type="text" class="form-control" id="caducidad" placeholder="MM/AAAA" required>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback"> Ingrese la fecha de caducidad</div>                    
+
+                </div>
+
+                <div class="col-md-6">
+                    <label for="cvv" class="form-label">CVV</label>
+                    <input type="text" class="form-control" id="cvv" placeholder="CVV" pattern="[0-9]{3}" required>
+                    <div class="valid-feedback"></div>
+                    <div class="invalid-feedback"> Ingrese el   CVV</div>            
+    
+                    
+                </div>
+
+                <div class="col-md-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="terminos" required>
+                        <label for="terminos" class="form-check-label">Aceptar terminos y condiciones.</label>
+                        <div class="valid-feedback"></div>
+                    <div class="invalid-feedback">Es necesario aceptar los terminos y condiciones.</div>       
+                    </div>
+                </div>
+                <h5 class="titulo"> Total a pagar: <span id="precioFinal" class="titulo"></span> </h5>
+                <button  class="btn btn-warning" id="submit-btn">Pagar</button>
+                
+              </form>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="js/form.js"></script>
+   
+</body>
+</html>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=Q, initial-scale=1.0">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>PreEntrega3</title>
 </head>
@@ -33,7 +33,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Precio Total</h5>
                         <p id="precio" class="card-text">S/. 0</p>
-                        <a href="#" onclick="procederPago()" class="btn btn-primary"> Proceder a Pago </a>
+                        <a href="formPago.html" id="btn-pagar" class="btn btn-primary"> Proceder a Pago </a>
                     </div>
                     </div>
             </div>
@@ -46,8 +46,9 @@
 
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
    <script src="https://kit.fontawesome.com/0b7504a262.js" crossorigin="anonymous"></script>
-   
-   <script src="js/carro.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+   <script type="module" src="js/carro.js"></script>
    
    
 </body>
