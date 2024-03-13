@@ -60,7 +60,8 @@ function renderizarProductos(array) {
 
 let usuariosRegistrados
 
-fetch("/js/db.json")
+// Cambio en la ruta para despliege en github pages ya que no reconocia la direccion correctamente - igual en db.json
+fetch("./js/db.json")
     .then(response => response.json())
     .then(data => {
       
@@ -89,11 +90,6 @@ fetch("/js/db.json")
 
 
 let contenedorProductos = document.getElementById("Productos-disponibles")
-
-
-
-/// CAMBIAR USER PARA RECONOCER EL INICIO DE SESION 
-
 
 
 // //Filtrado 
