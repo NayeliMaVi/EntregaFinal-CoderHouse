@@ -2,17 +2,17 @@
     "usuarios":[{"correo": "nma", "contraseña":"123"},
         {"correo":"prz", "contraseña":"jml"} ],
     "productos": [
-      { "precio": 210, "nombre": "GiftCard 50 💲 PSN", "clase": "PSN", "img": "../css/img/psn-gift-card-50-usd.jpg" },
-      { "precio": 100, "nombre": "GiftCard 25 💲 PSN", "clase": "PSN", "img": "../css/img/PSN-CARD-25.jpg" },
-      { "precio": 50, "nombre": "GiftCard 10 💲 PSN", "clase": "PSN", "img": "../css/img/psn 10.jpeg" },
-      { "precio": 50, "nombre": "PS Plus 🟡 1 mes", "clase": "PSN", "img": "../css/img/psn plus 1.jpg" },
-      { "precio": 170, "nombre": "PS Plus 🟡 3 meses", "clase": "PSN", "img": "../css/img/spn 3 plus.jpeg" },
-      { "precio": 500, "nombre": "PS Plus 🟡 12 meses", "clase": "PSN", "img": "../css/img/psn plus 12.jpg" },
-      { "precio": 200, "nombre": "GiftCard 50 💲 Xbox", "clase": "XBOX", "img": "../css/img/xbox 50.jpg" },
-      { "precio": 100, "nombre": "GiftCard 25 💲 Xbox", "clase": "XBOX", "img": "../css/img/xbox 25.jpg" },
-      { "precio": 40, "nombre": "GiftCard 10 💲 Xbox", "clase": "XBOX", "img": "../css/img/Xbox-Live-Card-10.jpg" },
-      { "precio": 23, "nombre": "GiftCard 5 💲 Xbox", "clase": "XBOX", "img": "../css/img/xbox 5.jpeg" },
-      { "precio": 30, "nombre": "GamePass 🟢 1 mes", "clase": "XBOX", "img": "../css/img/xbox 1.jpg" },
-      { "precio": 100, "nombre": "GamePass 🟢 3 meses", "clase": "XBOX", "img": "../css/img/xbox 3 mes.png" }
+      { "precio": 210, "nombre": "GiftCard 50 💲 PSN", "clase": "PSN", "img": "./css/img/psn-gift-card-50-usd.jpg" },
+      { "precio": 100, "nombre": "GiftCard 25 💲 PSN", "clase": "PSN", "img": "./css/img/PSN-CARD-25.jpg" },
+      { "precio": 50, "nombre": "GiftCard 10 💲 PSN", "clase": "PSN", "img": "./css/img/psn 10.jpeg" },
+      { "precio": 50, "nombre": "PS Plus 🟡 1 mes", "clase": "PSN", "img": "./css/img/psn plus 1.jpg" },
+      { "precio": 170, "nombre": "PS Plus 🟡 3 meses", "clase": "PSN", "img": "./css/img/spn 3 plus.jpeg" },
+      { "precio": 500, "nombre": "PS Plus 🟡 12 meses", "clase": "PSN", "img": "./css/img/psn plus 12.jpg" },
+      { "precio": 200, "nombre": "GiftCard 50 💲 Xbox", "clase": "XBOX", "img": "./css/img/xbox 50.jpg" },
+      { "precio": 100, "nombre": "GiftCard 25 💲 Xbox", "clase": "XBOX", "img": "./css/img/xbox 25.jpg" },
+      { "precio": 40, "nombre": "GiftCard 10 💲 Xbox", "clase": "XBOX", "img": "./css/img/Xbox-Live-Card-10.jpg" },
+      { "precio": 23, "nombre": "GiftCard 5 💲 Xbox", "clase": "XBOX", "img": "./css/img/xbox 5.jpeg" },
+      { "precio": 30, "nombre": "GamePass 🟢 1 mes", "clase": "XBOX", "img": "./css/img/xbox 1.jpg" },
+      { "precio": 100, "nombre": "GamePass 🟢 3 meses", "clase": "XBOX", "img": "./css/img/xbox 3 mes.png" }
     ]
   }

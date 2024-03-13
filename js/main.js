@@ -61,7 +61,7 @@ function renderizarProductos(array) {
 let usuariosRegistrados
 
 
-// fetch no reconoce en github
+// fetch no se reconocia en github y se cambio - Erro en directorio de imagenes para github que no se muestran
 fetch("./js/db.json")
     .then(response => response.json())
     .then(data => {
