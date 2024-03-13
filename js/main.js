@@ -60,7 +60,9 @@ function renderizarProductos(array) {
 
 let usuariosRegistrados
 
-fetch("./db.json")
+
+// fetch no reconoce en github
+fetch("./js/db.json")
     .then(response => response.json())
     .then(data => {
       
@@ -89,11 +91,6 @@ fetch("./db.json")
 
 
 let contenedorProductos = document.getElementById("Productos-disponibles")
-
-
-
-/// CAMBIAR USER PARA RECONOCER EL INICIO DE SESION 
-
 
 
 // //Filtrado 
